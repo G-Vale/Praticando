@@ -1,0 +1,50 @@
+.menu {
+background-color: #21569b;
+flex-shrink: 2;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+}
+
+.sections {
+    padding: 10px;
+    flex-basis: 100%;
+}
+
+.content {
+    background-color: #8f5a3b;
+    flex-shrink: 1;
+}
+
+.menu {
+    background-color: #88acda;
+}
+
+a {
+    display: inline-block;
+    padding: 5px;
+}
+
+h3 {
+    text-align: center;
+}
+
+/* BUTON */
+button {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+
+}
+
+.addCoin {
+    background-color: green;
+}
+
+.remCoin {
+    background-color: red;
+}
