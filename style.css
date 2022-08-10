@@ -32,6 +32,13 @@ h3 {
 }
 
 /* BUTON */
+
+.carteira {
+    text-align: center;
+    padding: 2rem;
+     
+}
+
 button {
     padding: 15px 32px;
     text-align: center;
