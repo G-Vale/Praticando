@@ -1,6 +1,20 @@
-.menu {
+body {
+    background-color: rgba(255, 0, 0, 0.541);
+}
+
+/* NAVAGAÇAO */
+
+nav {
+    text-align: center;
+    padding: .5rem;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex: auto;
+}
+.menuNav {
 background-color: #21569b;
-flex-shrink: 2;
+border: 1rem;
+padding: 1rem;
 }
 
 .container{
@@ -16,32 +30,37 @@ flex-shrink: 2;
 .content {
     background-color: #8f5a3b;
     flex-shrink: 1;
-}
-
-.menu {
-    background-color: #88acda;
+    padding: 1.5rem;
+    border: .5rem;
 }
 
 a {
     display: inline-block;
     padding: 5px;
+    color: black;
+    text-decoration: none;
 }
 
-h3 {
+/* H1 H2 H3 H4 */
+
+h1 {
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h2 {
     text-align: center;
     background-color: pink;
+    font-family;
 }
 
-/* BUTON */
+/* CARTEIRA */
 
 .carteira {
     text-align: center;
-    padding: 2rem;
-     
+    padding: .5rem;
+    background-color: #21569b;
+    margin: 2rem;
 }
 
 button {
@@ -50,13 +69,16 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 19px;
-
+    border-radius: .5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .addCoin {
     background-color: green;
+    font-size: 25px;
 }
 
 .remCoin {
     background-color: red;
+    font-size: 25px;
 }
