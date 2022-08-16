@@ -45,10 +45,14 @@ ordem .pop ()
 console.log (ordem)
 
 // Como contar os elementos na ARRAY
+// Como usadon para contar uma ARRAY, usando LENGTH 
 
 const ruas = [2, 4, 7, 76,  354, 54, 3232, 278, 32, 0, 43, 231];
 console.log(ruas.length);
     for (let i = 0; i < ruas.length; i++){
         console.log(ruas[i])
     }
-// Como usadon para contar uma ARRAY, usando LENGTH 
+
+//FUNCTION
+
+//ENDETER MELHOR COMO FUNCIONA O RETURN NO FUNCTION
