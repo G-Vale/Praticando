@@ -55,4 +55,21 @@ console.log(ruas.length);
 
 //FUNCTION
 
-//ENDETER MELHOR COMO FUNCIONA O RETURN NO FUNCTION
+//ENDETER MELHOR COMO FUNCIONA O RETURN NO FUNCTION 
+
+
+// CONTADOR EM JAVASCRIPT
+
+var counter = 130.32
+
+function upVote() {
+    counter = counter + 100;
+
+    document.getElementById("votos").innerHTML = counter + " votos";
+}
+
+function downVote() {
+    counter = counter - 100;
+
+    document.getElementById("votos").innerHTML = counter + " votos";
+}
