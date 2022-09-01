@@ -73,3 +73,5 @@ function downVote() {
 
     document.getElementById("votos").innerHTML = counter + " votos";
 }
+
+// cons

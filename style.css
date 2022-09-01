@@ -1,6 +1,7 @@
 * {
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
-	outline: none;
 }
 
 body {
@@ -10,7 +11,8 @@ body {
     flex-direction: column;
     width: 100%;
 	height: 100vh;
-
+    padding: 15px;
+    background: linear-gradient(45deg, #190f2c, #200b30);
 }
 
 /* NAVAGAÇAO */
@@ -28,8 +30,8 @@ body {
     font-size: 15px;
     position: sticky;
     top: 0;
-left: 0;
-z-index: 6;
+    left: 0;
+    z-index: 6;
 }
 
 .container{
@@ -38,8 +40,12 @@ z-index: 6;
 }
 
 .sections {
+    text-align: center;
     padding: 10px;
-    flex-basis: 100%;
+    width: 450px;
+    height: 250px;
+    background-color: darkmagenta;
+    border-radius: 8px;
 }
 
 .content {
@@ -66,15 +72,30 @@ h1 {
 h2 {
     text-align: center;
     background-color: pink;
-    
 }
 
+h3 {
+    margin-left: 20px;
+}
+
+img {
+    margin-left: 10px;
+}
 
 /* Contador EM JavaScript */
+
+.carteira {
+    background-color: rgb(113, 188, 21);
+    border-radius: 20px;
+    text-decoration: none;
+    width: 350px;
+    height: 550px;
+}
 
 #votos {
     font-weight: bolder;
     font-size: 25px;
+    padding: 15px;
 }
 
 #downVote {
@@ -83,6 +104,10 @@ h2 {
 
 #upVote {
     background-color: green;
+}
+
+em {
+    font-size: 15px;
 }
 
 button {
@@ -101,4 +126,24 @@ img {
 
 body {
     text-align: center;
+}
+
+/* Entrega de Pizzas */
+
+.entregaPizaa {
+    background-color: linen;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.incoming {
+    background-color: white;
+    margin: 10px 20px 10px 20px;
+    border: 5px solid crimson;
+}
+
+.ready {
+    background-color: white;
+    margin: 10px 20px 10px 20px;
+    border: 5px solid seagreen;
 }
