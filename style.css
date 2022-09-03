@@ -23,10 +23,6 @@ h1 {
     margin-top: 100px;
 }
 
-img{
-    max-width: 100%;
-    display: block;
-}
 /* NAVAGAÇAO */
 
 .header {
@@ -64,11 +60,26 @@ img{
 .flex > div {
     flex: 1 1 200px;
     margin: 10px;
+    border: solid pink
 }
 
 .projeto01{
     max-width: 100%;
     display: block;
+    align-items: center;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.projeto01 > h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 8px;
+}
+
+.projeto01 > img {
+    border: solid black;
 }
 /* Contador EM JavaScript */
 
@@ -76,16 +87,26 @@ img{
     background-color: rgb(213, 3, 133);
     border-radius: 20px;
     text-decoration: none;
+    justify-content: flex-end;
+    padding: 8px;
 }
 
-.projeto03 > img > h1 {
+.projeto03 > img >{
     max-width: 100%;
     display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+.projeto04 {
+    max-width: 100%;
+    display: block;
+    padding: 16px;
+    border-radius: 8px;
     text-align: center;
 }
 
 #votos {
-    font-weight: bolder;
     font-size: 25px;
     padding: 15px;
     align-items: center;
