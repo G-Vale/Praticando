@@ -32,7 +32,6 @@ h1 {
     align-items: center;
     flex-wrap: wrap;
     color: white;
-    background: black;
 }
 
 .menu {
@@ -47,6 +46,30 @@ h1 {
     display: block;
     padding: 10px;
 }
+
+/* Tipos */
+
+.tipos {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.tipos > div {
+    margin: 8px;
+    flex: 1 1 200px;
+    
+}
+
+.tipos img {
+    width: 200px;
+    height: 200px;
+    -webkit-border-radius: 40px 0px 40px 0px;
+    -moz-border-radius: 40px 0px 40px 0px;
+    border-radius: 40px 0px 40px 0px;
+}
+
 
 /* Flex box*/
 
@@ -63,73 +86,47 @@ h1 {
     border: solid pink
 }
 
+/* Projeto 1 */
+
 .projeto01{
     max-width: 100%;
     display: block;
     align-items: center;
     padding: 16px;
-    border-radius: 8px;
+    border-radius: 16px;
     text-align: center;
+    background-color: rgb(255, 255, 255);
 }
 
 .projeto01 > h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 8px;
+    text-shadow: 1px 2px 7px 1px #1c6ea4;
 }
 
 .projeto01 > img {
-    border: solid black;
-}
-/* Contador EM JavaScript */
-
-.projeto03 {
-    background-color: rgb(213, 3, 133);
-    border-radius: 20px;
-    text-decoration: none;
-    justify-content: flex-end;
-    padding: 8px;
-}
-
-.projeto03 > img >{
+    border: solid rgb(255, 255, 255);
+    width: 230px;
+    height: 230px;
     max-width: 100%;
-    display: block;
-    text-align: center;
-    padding: 10px;
+    border-radius: 8px;
+    padding: 5 px;
 }
+
+#pjt1{
+    background: #0000B9;
+    background: -moz-linear-gradient(45deg, #0000B9 0%, #02001A 50%, #0901A2 100%);
+    background: -webkit-linear-gradient(45deg, #0000B9 0%, #02001A 50%, #0901A2 100%);
+    background: linear-gradient(45deg, #0000B9 0%, #02001A 50%, #0901A2 100%);      
+}
+
+/* Projeto4 */
 
 .projeto04 {
     max-width: 100%;
     display: block;
     padding: 16px;
-    border-radius: 8px;
+    border-radius: 16px;
     text-align: center;
-}
-
-#votos {
-    font-size: 25px;
-    padding: 15px;
-    align-items: center;
-}
-
-#downVote {
-    background-color: red;
-}
-
-#upVote {
-    background-color: green; 
-}
-
-em {
-    font-size: 15px;
-}
-
-button {
-    margin: 5px;
-    border-radius: 10px;
-    border: none;
-    color: white;
-    padding: 10px;
-    font-size: 16px;
-    align-items: center;
 }
