@@ -16,6 +16,7 @@ body, ul, li, p {
 
 a {
     text-decoration: none;
+    color: rgb(255, 255, 255)
 }
 
 h1 {
@@ -23,6 +24,9 @@ h1 {
     margin-top: 100px;
 }
 
+h2,p {
+    color: white;
+}
 /* NAVAGAÇAO */
 
 .header {
@@ -31,7 +35,7 @@ h1 {
     padding: 20px;
     align-items: center;
     flex-wrap: wrap;
-    color: white;
+    background:#1b0392
 }
 
 .menu {
@@ -52,14 +56,16 @@ h1 {
 .tipos {
     display: flex;
     flex-wrap: nowrap;
-    max-width: 750px;
+    max-width: 930px;
     margin: 0 auto;
+    background: #1c6ea4;
+    padding: 16px;
+    margin: 16px
 }
 
 .tipos > div {
     margin: 8px;
     flex: 1 1 200px;
-    
 }
 
 .tipos img {
@@ -76,14 +82,15 @@ h1 {
 .flex {
     display: flex;
     flex-wrap: wrap;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
 .flex > div {
-    flex: 1 1 200px;
+    flex: 1 1 800px;
     margin: 10px;
-    border: solid pink
+    border: solid rgb(4, 0, 255);
+    border-radius: 16px; 
 }
 
 /* Projeto 1 */
@@ -95,7 +102,6 @@ h1 {
     padding: 16px;
     border-radius: 16px;
     text-align: center;
-    background-color: rgb(255, 255, 255);
 }
 
 .projeto01 > h2 {
@@ -107,11 +113,11 @@ h1 {
 
 .projeto01 > img {
     border: solid rgb(255, 255, 255);
-    width: 230px;
-    height: 230px;
+    width: 330px;
+    height: 330px;
     max-width: 100%;
     border-radius: 8px;
-    padding: 5 px;
+    margin: 16px;
 }
 
 #pjt1{
@@ -129,4 +135,6 @@ h1 {
     padding: 16px;
     border-radius: 16px;
     text-align: center;
+    background-color: rgb(242, 134, 40);
 }
+
