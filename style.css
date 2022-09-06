@@ -54,26 +54,53 @@ h2,p {
 /* Tipos */
 
 .tipos {
-    display: flex;
-    flex-wrap: nowrap;
-    max-width: 930px;
-    margin: 0 auto;
     background: #1c6ea4;
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
     padding: 16px;
-    margin: 16px
+
 }
 
 .tipos > div {
     margin: 8px;
     flex: 1 1 200px;
+    border: solid 6px black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .tipos img {
-    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
     height: 200px;
-    -webkit-border-radius: 40px 0px 40px 0px;
-    -moz-border-radius: 40px 0px 40px 0px;
-    border-radius: 40px 0px 40px 0px;
+    width: 250px;
+}
+
+.tipos p {
+    padding: 8PX;
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Porque */
+
+.porque {
+    flex-wrap: wrap;
+    background: #1c6ea4;
+    flex-direction: column;
+}
+
+.porque > div {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+
+.porque > span {
+    justify-content: center;
 }
 
 
@@ -84,13 +111,19 @@ h2,p {
     flex-wrap: wrap;
     max-width: 900px;
     margin: 0 auto;
+    text-align: center;
+
 }
 
 .flex > div {
     flex: 1 1 800px;
     margin: 10px;
-    border: solid rgb(4, 0, 255);
-    border-radius: 16px; 
+}
+
+.cliente02 > img {
+    height: 300px;
+    width: 300px;
+    padding: 16px;
 }
 
 /* Projeto 1 */
@@ -120,13 +153,6 @@ h2,p {
     margin: 16px;
 }
 
-#pjt1{
-    background: #0000B9;
-    background: -moz-linear-gradient(45deg, #0000B9 0%, #02001A 50%, #0901A2 100%);
-    background: -webkit-linear-gradient(45deg, #0000B9 0%, #02001A 50%, #0901A2 100%);
-    background: linear-gradient(45deg, #0000B9 0%, #02001A 50%, #0901A2 100%);      
-}
-
 /* Projeto4 */
 
 .projeto04 {
@@ -137,4 +163,16 @@ h2,p {
     text-align: center;
     background-color: rgb(242, 134, 40);
 }
+ 
+/* DUVIDAS */
 
+.duvidas {
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+}
+
+.duvidas > div > span {
+    padding: 8px;
+    border: 8px;
+}
